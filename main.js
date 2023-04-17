@@ -2,11 +2,6 @@ var weatherCSV = 'csv/weather_data.csv';
 var circuitInfoCSV = 'csv/event_info.csv';
 var tireStrategiesCSV = 'csv/tire-strategies.csv';
 
-var tireClassifications = [
-    'style/img/tires.svg',
-    'style/img/tires-2018.svg'
-]
-
 Papa.parse(tireStrategiesCSV, {
     download: true,
     header: true,
