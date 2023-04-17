@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e4cdaf-3215-484e-9349-be2dbf404801" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/style/img/tires.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/event_info.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/tire-strategies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/weather_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/img/humidity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/img/pressure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/img/temp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/img/tires-2018.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/img/wind.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/vedee/OneDrive/Documents/7CCSMSDV/style/img",
+    "last_opened_file_path": "C:/Users/vedee/OneDrive/Documents/7CCSMSDV/style",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,9 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vedee\OneDrive\Documents\7CCSMSDV\style" />
       <recent name="C:\Users\vedee\OneDrive\Documents\7CCSMSDV\style\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vedee\OneDrive\Documents\7CCSMSDV\style\img" />
       <recent name="C:\Users\vedee\OneDrive\Documents\7CCSMSDV\style\font" />
     </key>
   </component>
@@ -69,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681142749201</updated>
       <workItem from="1681142750209" duration="3340000" />
-      <workItem from="1681572232909" duration="3897000" />
+      <workItem from="1681572232909" duration="3949000" />
+      <workItem from="1681738213573" duration="15107000" />
     </task>
     <servers />
   </component>

@@ -4,21 +4,67 @@
     <meta charset="UTF-8">
     <title>F1 Infoviz</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
-
+    <script src="node_modules/papaparse/papaparse.min.js"></script>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <div class="flex">
         <div class="container">
             <span class="heading">Tire Legend</span>
-            <img src="style/img/tires.svg" alt="F1 Tire Classifications" style="margin-left: 1.5rem">
+            <img id="tires" src="style/img/tires-2018.svg" alt="F1 Tire Classifications" style="margin-left: 1.5rem">
         </div>
         <div class="container">
             <span class="heading">Event Information</span>
+            <span class="container-text">
+                <span style="opacity: 0.6">NAME: </span> Abu Dhabi Grand Prix
+            </span>
+            <span class="container-text">
+                <span style="opacity: 0.6">LOCATION: </span> Yas Marina
+            </span>
+            <span class="container-text">
+                <span style="opacity: 0.6">LAPS: </span> 58
+            </span>
         </div>
         <div class="container">
             <span class="heading">Race Conditions</span>
+            <div class="grid">
+                <div class="condition" style="justify-content: center">
+                    <img src="style/img/temp.svg" alt="Air Temperature">
+                    <div class="condition-desc">
+                        <div class="condition-measure">24.1<span style="font-size: 16px">°c</span></div>
+                        <div class="condition-label">TEMP</div>
+                    </div>
+                </div>
+                <div class="condition">
+                    <img src="style/img/humidity.svg" alt="Humidity">
+                    <div class="condition-desc">
+                        <div class="condition-measure">36.2<span style="font-size: 12px">%</span></div>
+                        <div class="condition-label">HUMIDITY</div>
+                    </div>
+                </div>
+                <div class="condition">
+                    <img src="style/img/pressure.svg" alt="Air Pressure">
+                    <div class="condition-desc">
+                        <div class="condition-measure">997<span style="font-size: 12px">mbar</span></div>
+                        <div class="condition-label">PRESSURE</div>
+                    </div>
+                </div>
+                <div class="condition">
+                    <img src="style/img/wind.svg" alt="Wind Speed">
+                    <div class="condition-desc">
+                        <div class="condition-measure">3<span style="font-size: 12px">kmph</span></div>
+                        <div class="condition-label">WIND</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <div class="container">
+            <span class="heading">Filters</span>
+            <select id="year" onchange="{updateOptions()}"></select>
+            <select id="circuit"></select>
         </div>
     </div>
 </body>
