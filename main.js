@@ -251,6 +251,8 @@ function createChart() {
             .attr("y", d => yScale(d[1]))
             .attr("height", d => yScale(d[0]) - yScale(d[1]))
             .attr("ry", 2)
+            .transition()
+            .duration(1000)
             .attr("width", xScale.bandwidth() - 10);
 
         const xAxis = d3.axisBottom(xScale);
