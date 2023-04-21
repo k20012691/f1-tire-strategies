@@ -200,7 +200,7 @@ function createChart() {
         }));
 
         const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-        const width = 960 - margin.left - margin.right;
+        const width = 800 - margin.left - margin.right;
         const height = 500 - margin.top - margin.bottom;
 
         const svg = d3.select("#chart")
@@ -208,7 +208,7 @@ function createChart() {
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ") scale(0.8)");
 
         const drivers = Object.keys(data);
         const xScale = d3.scaleBand()
@@ -249,7 +249,8 @@ function createChart() {
             .attr("x", d => xScale(d.data.driver))
             .attr("y", d => yScale(d[1]))
             .attr("height", d => yScale(d[0]) - yScale(d[1]))
-            .attr("width", xScale.bandwidth());
+            .attr("ry", 2)
+            .attr("width", xScale.bandwidth() - 10);
 
         const xAxis = d3.axisBottom(xScale);
 
@@ -260,21 +261,34 @@ function createChart() {
         const yAxis = d3.axisLeft(yScale);
 
         svg.append("g")
-            .attr("transform", "translate(50, 0)")
+            .attr("transform", "translate(0, 0)")
             .call(yAxis);
 
         svg.append("text")
             .attr("x", 250)
             .attr("y", 490)
             .attr("text-anchor", "middle")
+            .style("font-family", "Formula1 Display")
+            .attr("fill", "white")
             .text("Driver");
 
         svg.append("text")
             .attr("x", -250)
-            .attr("y", 10)
+            .attr("y", -40)
             .attr("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
+            .style("font-family", "Formula1 Display")
+            .attr("fill", "white")
             .text("Number of Laps");
 
+        svg.selectAll(".domain")
+            .style("stroke", "white");
+
+        svg.selectAll(".tick line")
+            .style("stroke", "white");
+
+        svg.selectAll(".tick text")
+            .style("font-family", "Formula1 Display")
+            .style("color", "white");
     })
 }
