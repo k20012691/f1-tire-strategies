@@ -8,7 +8,6 @@ var circuitsByYear = {};
 var selectedRace;
 var driverStintData = {};
 var colourScheme = [];
-var stackedChart;
 
 var colourSchemes = [
     {
