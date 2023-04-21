@@ -8,6 +8,7 @@ var circuitsByYear = {};
 var selectedRace;
 var driverStintData = {};
 var colourScheme = [];
+var stackedChart;
 
 var colourSchemes = [
     {
@@ -198,7 +199,7 @@ function createChart() {
             driver,
             compounds,
         }));
-
+        d3.select('#chart').selectAll("*").remove();
         const margin = { top: 20, right: 20, bottom: 30, left: 40 };
         const width = 800 - margin.left - margin.right;
         const height = 500 - margin.top - margin.bottom;
