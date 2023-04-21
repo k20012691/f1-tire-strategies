@@ -1,109 +1,107 @@
-Year,Name,Location,Laps
-2018,Australian Grand Prix,Melbourne,58
-2018,Bahrain Grand Prix,Sakhir,57
-2018,Chinese Grand Prix,Shanghai,56
-2018,Azerbaijan Grand Prix,Baku,51.0
-2018,Spanish Grand Prix,Barcelona,66.0
-2018,Monaco Grand Prix,Monte Carlo,78
-2018,Canadian Grand Prix,Montr�al,70.0
-2018,French Grand Prix,Le Castellet,53.0
-2018,Austrian Grand Prix,Spielberg,71
-2018,British Grand Prix,Silverstone,52
-2018,German Grand Prix,Hockenheim,67
-2018,Hungarian Grand Prix,Budapest,70.0
-2018,Belgian Grand Prix,Spa-Francorchamps,44.0
-2018,Italian Grand Prix,Monza,53.0
-2018,Singapore Grand Prix,Singapore,61.0
-2018,Russian Grand Prix,Sochi,53
-2018,Japanese Grand Prix,Suzuka,53
-2018,United States Grand Prix,Austin,56
-2018,Mexican Grand Prix,Mexico City,71
-2018,Brazilian Grand Prix,S�o Paulo,71
-2018,Abu Dhabi Grand Prix,Yas Marina,55.0
-2019,Australian Grand Prix,Melbourne,58
-2019,Bahrain Grand Prix,Sakhir,57
-2019,Chinese Grand Prix,Shanghai,56
-2019,Azerbaijan Grand Prix,Baku,51
-2019,Spanish Grand Prix,Barcelona,66
-2019,Monaco Grand Prix,Monte Carlo,78
-2019,Canadian Grand Prix,Montr�al,70
-2019,French Grand Prix,Le Castellet,53
-2019,Austrian Grand Prix,Spielberg,71
-2019,British Grand Prix,Silverstone,52
-2019,German Grand Prix,Hockenheim,64
-2019,Hungarian Grand Prix,Budapest,70
-2019,Belgian Grand Prix,Spa-Francorchamps,44.0
-2019,Italian Grand Prix,Monza,53
-2019,Singapore Grand Prix,Singapore,61
-2019,Russian Grand Prix,Sochi,53.0
-2019,Japanese Grand Prix,Suzuka,53
-2019,Mexican Grand Prix,Mexico City,71
-2019,United States Grand Prix,Austin,56
-2019,Brazilian Grand Prix,S�o Paulo,71
-2019,Abu Dhabi Grand Prix,Yas Island,55
-2020,Pre-Season Test 1,Barcelona,66
-2020,Pre-Season Test 2,Barcelona,66
-2020,Austrian Grand Prix,Spielberg,67
-2020,Styrian Grand Prix,Spielberg,70
-2020,Hungarian Grand Prix,Budapest,70
-2020,British Grand Prix,Silverstone,52.0
-2020,70th Anniversary Grand Prix,Silverstone,52
-2020,Spanish Grand Prix,Barcelona,66
-2020,Belgian Grand Prix,Spa-Francorchamps,44.0
-2020,Italian Grand Prix,Monza,53
-2020,Tuscan Grand Prix,Mugello,59.0
-2020,Russian Grand Prix,Sochi,53.0
-2020,Eifel Grand Prix,N�rburgring,60
-2020,Portuguese Grand Prix,Portim�o,66
-2020,Emilia Romagna Grand Prix,Imola,63
-2020,Turkish Grand Prix,Istanbul,58
-2020,Bahrain Grand Prix,Sakhir,57.0
-2020,Sakhir Grand Prix,Sakhir,87.0
-2020,Abu Dhabi Grand Prix,Yas Island,55
-2021,Pre-Season Test,Bahrain,53
-2021,Bahrain Grand Prix,Sakhir,56.0
-2021,Emilia Romagna Grand Prix,Imola,63.0
-2021,Portuguese Grand Prix,Portim�o,66
-2021,Spanish Grand Prix,Barcelona,66
-2021,Monaco Grand Prix,Monte Carlo,78.0
-2021,Azerbaijan Grand Prix,Baku,51
-2021,French Grand Prix,Le Castellet,53
-2021,Styrian Grand Prix,Spielberg,71
-2021,Austrian Grand Prix,Spielberg,71.0
-2021,British Grand Prix,Silverstone,52.0
-2021,Hungarian Grand Prix,Budapest,70.0
-2021,Belgian Grand Prix,Spa-Francorchamps,3
-2021,Dutch Grand Prix,Zandvoort,72
-2021,Italian Grand Prix,Monza,53.0
-2021,Russian Grand Prix,Sochi,53
-2021,Turkish Grand Prix,Istanbul,58
-2021,United States Grand Prix,Austin,56
-2021,Mexico City Grand Prix,Mexico City,71.0
-2021,S�o Paulo Grand Prix,S�o Paulo,71
-2021,Qatar Grand Prix,Lusail,57
-2021,Saudi Arabian Grand Prix,Jeddah,50
-2021,Abu Dhabi Grand Prix,Yas Island,58
-2022,Pre-Season Track Session,Spain,58
-2022,Pre-Season Test,Bahrain,53
-2022,Bahrain Grand Prix,Sakhir,57
-2022,Saudi Arabian Grand Prix,Jeddah,50.0
-2022,Australian Grand Prix,Melbourne,58
-2022,Emilia Romagna Grand Prix,Imola,63.0
-2022,Miami Grand Prix,Miami,57
-2022,Spanish Grand Prix,Barcelona,66
-2022,Monaco Grand Prix,Monaco,64
-2022,Azerbaijan Grand Prix,Baku,51
-2022,Canadian Grand Prix,Montr�al,70
-2022,British Grand Prix,Silverstone,52.0
-2022,Austrian Grand Prix,Spielberg,71
-2022,French Grand Prix,Le Castellet,53
-2022,Hungarian Grand Prix,Budapest,70
-2022,Belgian Grand Prix,Spa-Francorchamps,44.0
-2022,Dutch Grand Prix,Zandvoort,72
-2022,Italian Grand Prix,Monza,53
-2022,Singapore Grand Prix,Marina Bay,59
-2022,Japanese Grand Prix,Suzuka,28.0
-2022,United States Grand Prix,Austin,56
-2022,Mexico City Grand Prix,Mexico City,71
-2022,S�o Paulo Grand Prix,S�o Paulo,71.0
-2022,Abu Dhabi Grand Prix,Yas Island,58
+Year,Name,Country,Location,Laps
+2018,Australian Grand Prix,Australia,Melbourne,58
+2018,Bahrain Grand Prix,Bahrain,Sakhir,57
+2018,Chinese Grand Prix,China,Shanghai,56
+2018,Azerbaijan Grand Prix,Azerbaijan,Baku,51
+2018,Spanish Grand Prix,Spain,Barcelona,66
+2018,Monaco Grand Prix,Monaco,Monte Carlo,78
+2018,Canadian Grand Prix,Canada,Montr�al,70
+2018,French Grand Prix,France,Le Castellet,53
+2018,Austrian Grand Prix,Austria,Spielberg,71
+2018,British Grand Prix,Great Britain,Silverstone,52
+2018,German Grand Prix,Germany,Hockenheim,67
+2018,Hungarian Grand Prix,Hungary,Budapest,70
+2018,Belgian Grand Prix,Belgium,Spa-Francorchamps,44
+2018,Italian Grand Prix,Italy,Monza,53
+2018,Singapore Grand Prix,Singapore,Singapore,61
+2018,Russian Grand Prix,Russia,Sochi,53
+2018,Japanese Grand Prix,Japan,Suzuka,53
+2018,United States Grand Prix,United States,Austin,56
+2018,Mexican Grand Prix,Mexico,Mexico City,71
+2018,Brazilian Grand Prix,Brazil,S�o Paulo,71
+2018,Abu Dhabi Grand Prix,United Arab Emirates,Yas Marina,55
+2019,Australian Grand Prix,Australia,Melbourne,58
+2019,Bahrain Grand Prix,Bahrain,Sakhir,57
+2019,Chinese Grand Prix,China,Shanghai,56
+2019,Azerbaijan Grand Prix,Azerbaijan,Baku,51
+2019,Spanish Grand Prix,Spain,Barcelona,66
+2019,Monaco Grand Prix,Monaco,Monte Carlo,78
+2019,Canadian Grand Prix,Canada,Montr�al,70
+2019,French Grand Prix,France,Le Castellet,53
+2019,Austrian Grand Prix,Austria,Spielberg,71
+2019,British Grand Prix,Great Britain,Silverstone,52
+2019,German Grand Prix,Germany,Hockenheim,64
+2019,Hungarian Grand Prix,Hungary,Budapest,70
+2019,Belgian Grand Prix,Belgium,Spa-Francorchamps,44
+2019,Italian Grand Prix,Italy,Monza,53
+2019,Singapore Grand Prix,Singapore,Singapore,61
+2019,Russian Grand Prix,Russia,Sochi,53
+2019,Japanese Grand Prix,Japan,Suzuka,53
+2019,Mexican Grand Prix,Mexico,Mexico City,71
+2019,United States Grand Prix,United States,Austin,56
+2019,Brazilian Grand Prix,Brazil,S�o Paulo,71
+2019,Abu Dhabi Grand Prix,Abu Dhabi,Yas Island,55
+2020,Austrian Grand Prix,Austria,Spielberg,67
+2020,Styrian Grand Prix,Austria,Spielberg,70
+2020,Hungarian Grand Prix,Hungary,Budapest,70
+2020,British Grand Prix,Great Britain,Silverstone,52
+2020,70th Anniversary Grand Prix,Great Britain,Silverstone,52
+2020,Spanish Grand Prix,Spain,Barcelona,66
+2020,Belgian Grand Prix,Belgium,Spa-Francorchamps,44
+2020,Italian Grand Prix,Italy,Monza,53
+2020,Tuscan Grand Prix,Italy,Mugello,59
+2020,Russian Grand Prix,Russia,Sochi,53
+2020,Eifel Grand Prix,Germany,N�rburgring,60
+2020,Portuguese Grand Prix,Portugal,Portim�o,66
+2020,Emilia Romagna Grand Prix,Italy,Imola,63
+2020,Turkish Grand Prix,Turkey,Istanbul,58
+2020,Bahrain Grand Prix,Bahrain,Sakhir,57
+2020,Sakhir Grand Prix,Bahrain,Sakhir,87
+2020,Abu Dhabi Grand Prix,Abu Dhabi,Yas Island,55
+2021,Bahrain Grand Prix,Bahrain,Sakhir,56
+2021,Emilia Romagna Grand Prix,Italy,Imola,63
+2021,Portuguese Grand Prix,Portugal,Portim�o,66
+2021,Spanish Grand Prix,Spain,Barcelona,66
+2021,Monaco Grand Prix,Monaco,Monte Carlo,78
+2021,Azerbaijan Grand Prix,Azerbaijan,Baku,51
+2021,French Grand Prix,France,Le Castellet,53
+2021,Styrian Grand Prix,Austria,Spielberg,71
+2021,Austrian Grand Prix,Austria,Spielberg,71
+2021,British Grand Prix,Great Britain,Silverstone,52
+2021,Hungarian Grand Prix,Hungary,Budapest,70
+2021,Belgian Grand Prix,Belgium,Spa-Francorchamps,3
+2021,Dutch Grand Prix,Netherlands,Zandvoort,72
+2021,Italian Grand Prix,Italy,Monza,53
+2021,Russian Grand Prix,Russia,Sochi,53
+2021,Turkish Grand Prix,Turkey,Istanbul,58
+2021,United States Grand Prix,United States,Austin,56
+2021,Mexico City Grand Prix,Mexico,Mexico City,71
+2021,S�o Paulo Grand Prix,Brazil,S�o Paulo,71
+2021,Qatar Grand Prix,Qatar,Lusail,57
+2021,Saudi Arabian Grand Prix,Saudi Arabia,Jeddah,50
+2021,Abu Dhabi Grand Prix,Abu Dhabi,Yas Island,58
+2022,Bahrain Grand Prix,Bahrain,Sakhir,57
+2022,Saudi Arabian Grand Prix,Saudi Arabia,Jeddah,50
+2022,Australian Grand Prix,Australia,Melbourne,58
+2022,Emilia Romagna Grand Prix,Italy,Imola,63
+2022,Miami Grand Prix,United States,Miami,57
+2022,Spanish Grand Prix,Spain,Barcelona,66
+2022,Monaco Grand Prix,Monaco,Monaco,64
+2022,Azerbaijan Grand Prix,Azerbaijan,Baku,51
+2022,Canadian Grand Prix,Canada,Montr�al,70
+2022,British Grand Prix,Great Britain,Silverstone,52
+2022,Austrian Grand Prix,Austria,Spielberg,71
+2022,French Grand Prix,France,Le Castellet,53
+2022,Hungarian Grand Prix,Hungary,Budapest,70
+2022,Belgian Grand Prix,Belgium,Spa-Francorchamps,44
+2022,Dutch Grand Prix,Netherlands,Zandvoort,72
+2022,Italian Grand Prix,Italy,Monza,53
+2022,Singapore Grand Prix,Singapore,Marina Bay,59
+2022,Japanese Grand Prix,Japan,Suzuka,28
+2022,United States Grand Prix,United States,Austin,56
+2022,Mexico City Grand Prix,Mexico,Mexico City,71
+2022,S�o Paulo Grand Prix,Brazil,S�o Paulo,71
+2022,Abu Dhabi Grand Prix,Abu Dhabi,Yas Island,58
+2023,Bahrain Grand Prix,Bahrain,Sakhir,57
+2023,Saudi Arabian Grand Prix,Saudi Arabia,Jeddah,50
+2023,Australian Grand Prix,Australia,Melbourne,58
