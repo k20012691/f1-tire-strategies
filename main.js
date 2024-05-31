@@ -1,3 +1,4 @@
+
 var weatherCSV = 'csv/weather_data.csv';
 var circuitInfoCSV = 'csv/event_info.csv';
 var tireStrategiesCSV = 'csv/tire-strategies.csv';
